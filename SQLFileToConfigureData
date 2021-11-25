@@ -1,0 +1,15 @@
+CREATE DATABASE mydb;
+
+use mydb;
+
+CREATE TABLE Country(id varchar(50),
+
+countryname varchar(50),
+
+countryCapital varchar(50),
+
+PRIMARY KEY (id));
+
+INSERT INTO Country(id,countryname,countryCapital) values("1","India","Delhi");
+
+select * from Country where id = '1'
