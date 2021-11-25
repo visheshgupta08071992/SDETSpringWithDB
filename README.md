@@ -1,5 +1,5 @@
 # General info
-This Project is used to Creating Rest API using Sprint Boot and MySql. All the the data is stored and retrieved from MySql DB.
+This Project is used for Creating Rest API using Sprint Boot and MySql. All the the data is stored and retrieved from MySql DB.
 
 ## Note :
 
