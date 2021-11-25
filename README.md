@@ -7,4 +7,4 @@ This Project is used for Creating Rest API using Sprint Boot and MySql. All the 
 
 2.@Mock Annotation is used to Mock classes on which the class under test is dependent on.
 
-3.@InjectMocks is used to create an Object of class under test. @InjectMocks inject all Mock Objects within the Object of class inder test.
+3.@InjectMocks is used to create an Object of class under test. @InjectMocks inject all Mock Objects within the Object of class under test.
