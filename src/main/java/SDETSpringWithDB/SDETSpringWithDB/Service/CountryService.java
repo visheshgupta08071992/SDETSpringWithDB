@@ -3,7 +3,6 @@ package SDETSpringWithDB.SDETSpringWithDB.Service;
 import SDETSpringWithDB.SDETSpringWithDB.Entity.Country;
 import SDETSpringWithDB.SDETSpringWithDB.Repository.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -11,7 +10,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Component
 @Service
 public class CountryService  {
 
@@ -21,12 +19,12 @@ public class CountryService  {
 
     //Method which would return all the countries
     public List<Country> getAllCountries(){
-       return countryRepository.findAll();
+        return countryRepository.findAll();
     }
 
     //Method which would return country by Id
-    public Country getCountryById(int id){
-         return countryRepository.findById(id).get();
+    public Country  getCountryById(int id){
+        return countryRepository.findById(id).get();
     }
 
     //Method which would return country by Name
@@ -61,6 +59,6 @@ public class CountryService  {
 
     //Method to always get the new ID for Country
     public int getLatestCountryId(){
-         return countryRepository.findAll().size();
+        return countryRepository.findAll().size();
     }
 }
